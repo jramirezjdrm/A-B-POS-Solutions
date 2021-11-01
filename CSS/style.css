@@ -1,0 +1,144 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: calc(100vw - 40px);
+    margin: 0 auto;
+  }
+  
+  .btn {
+    background-color: #29b7dd;
+    padding: 10px 80px;
+    border-radius: 30px;
+    font-weight: 700;
+  }
+  
+  header {
+    background-color: #3b065e;
+    color: white;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+  }
+
+  
+
+
+
+  .hero {
+    display: grid;
+    grid-template-columns: 0.7fr 1fr;
+    column-gap: 40px;
+    align-items: center;
+    padding: 20px 0;
+    justify-items: end;
+  }
+  
+  h1,
+  p,
+  a {
+    margin-bottom: 30px;
+    box-sizing: border-box;
+  }
+  
+  .hero img {
+    width: 80%;
+  }
+  
+  .dos-image{
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: 400px;
+    margin: 0px 300px 60px;
+
+  }
+0
+  .header-image {
+    display: flex;
+    justify-content: end;
+  }
+
+  .images-container{
+    height: 400px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 400px 400px;
+    column-gap: 20px;
+    justify-content: center;
+  }
+
+  .image-people{
+    width: 400px;
+    height: 400px;
+    background-image: url(../img/2.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .features-text{
+    margin: 100px 0 50px;
+    text-align: center;
+  }
+
+  .features-text h2{
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+
+  .features-options{
+    display: grid;
+    grid-template-columns: 200px 200px;
+    column-gap: 20px;
+    row-gap: 20px;
+
+  }
+
+  .feature-item{
+    width: 200px;
+    height: 190px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #29b7dd;
+    color: white;
+  }
+
+  .feature-item i{
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .feature-p{
+    background-color: #8b72ee;
+  }
+
+  .feature-dp{
+    background-color: #5d3be7;
+  }
+  
+  .feature-lp{
+    background-color: #bd72ef;
+  }
+  @media (min-width: 768px) {
+    .container {
+      width: 700px;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .container {
+      width: 1000px;
+    }
+
+
+  }
